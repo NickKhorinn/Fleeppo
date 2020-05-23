@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl13"
+    android:background="#6FDC8E06">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Скоько тебе лет?"'
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вставьте слово, подхоядщее по смыслу"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="... old are you?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="what"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="why"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="who"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/bmlvl1ex"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="How"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

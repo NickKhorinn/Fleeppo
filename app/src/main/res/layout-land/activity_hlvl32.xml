@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hlvl32"
+    android:background="#95EC0707">
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do you fill with empty hands?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/button85"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="pot"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/bhlvl32"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="glove"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button86"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="mug"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button87"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="air"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

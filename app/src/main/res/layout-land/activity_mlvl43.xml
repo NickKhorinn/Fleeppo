@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl43"
+    android:background="#6FDC8E06">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What did Anne order?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="414dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="301dp"
+        android:layout_height="378dp"
+        android:text="In cafe                                                                M:-Do you like this cafe, Anne?                                      A:-Yes, it looks pretty!                                               -What would you like to drink?                              -Hm, let me think... A coffee!                                                              -Okey. And what would you like to eat?                                              -Pudding!                                            -Are you sure?                                          -No, I want a cheesecake!                                      -Okey...                                                  -Oh, maybe doughnuts?                                               -Sorry, Anne, but there are only pancakes                                                         -Ah, okey. Then a pancake!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <Button
+        android:id="@+id/bmlvl4ex"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:background="#BCDC8E06"
+        android:text="Coffee and a pancake"
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/button72"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:background="#BCDC8E06"
+        android:text=" Tea and a cheesecake"
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/button70"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:background="#BCDC8E06"
+        android:text="Coffee and a doughnut"
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button71"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
+        android:background="#BCDC8E06"
+        android:text="Tea with milk and a pancake "
+        tools:layout_editor_absoluteX="381dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

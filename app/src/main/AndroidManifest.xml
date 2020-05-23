@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khorinfleeppo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Mlvl43"></activity>
+        <activity android:name=".Mlvl42" />
+        <activity android:name=".Mlvl33" />
+        <activity android:name=".Mlvl32" />
+        <activity android:name=".Mlvl23" />
+        <activity android:name=".Mlvl22" />
+        <activity android:name=".Mlvl13" />
+        <activity android:name=".Mlvl12" />
+        <activity android:name=".Hlvl43" />
+        <activity android:name=".Hlvl42" />
+        <activity android:name=".Hlvl33" />
+        <activity android:name=".Hlvl32" />
+        <activity android:name=".Hlvl23" />
+        <activity android:name=".Hlvl22" />
+        <activity android:name=".Hlvl13" />
+        <activity android:name=".Hlvl12" />
+        <activity android:name=".Elvl43" />
+        <activity android:name=".Elvl42" />
+        <activity android:name=".Elvl33" />
+        <activity android:name=".Elvl32" />
+        <activity android:name=".Elvl23" />
+        <activity android:name=".Elvl22" />
+        <activity android:name=".Elvl13" />
+        <activity android:name=".Elvl12" />
+        <activity android:name=".Mlvl4" />
+        <activity android:name=".Mlvl3" />
+        <activity android:name=".Mlvl2" />
+        <activity android:name=".Mlvl1" />
+        <activity android:name=".Hlvl4" />
+        <activity android:name=".Hlvl3" />
+        <activity android:name=".Hlvl2" />
+        <activity android:name=".Hlvl1" />
+        <activity android:name=".Elvl4" />
+        <activity android:name=".Elvl3" />
+        <activity android:name=".Elvl2" />
+        <activity android:name=".Elvl1" />
+        <activity android:name=".Hard" />
+        <activity android:name=".Midle" />
+        <activity android:name=".Easy" />
+        <activity android:name=".level" />
+        <activity android:name=".Privet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

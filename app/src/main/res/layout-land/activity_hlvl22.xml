@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hlvl22"
+    android:background="#95EC0707">
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите правильно сотавленное предложение"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button105"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="The rooms is  beeng linked by 10 metre high walkways between the trees"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button103"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="The rooms is linked by 10 metre high walkways between the trees"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/bhlvl23"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="The rooms will be linked by 10 metre high walkways between the trees"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button104"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="The rooms was linked by 10 metre high walkways between the trees"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="348dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

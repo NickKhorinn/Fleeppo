@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elvl22"
+    android:background="#5149EA37">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Переведите: "Двенадцать"'
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#CC49EA37"
+        android:text="Twenty"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#CC49EA37"
+        android:text="Eight"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/belvl23"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#CC49EA37"
+        android:text="Twelve"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#CC49EA37"
+        android:text="Two"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

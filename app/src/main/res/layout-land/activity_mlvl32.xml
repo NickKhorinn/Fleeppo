@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl32"
+    android:background="#6FDC8E06">
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="It is going to rain soon"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/bmlvl33"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="194dp"
+        android:text="Last night there was clear skies" />
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="We were going to the castle today"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="It is sunny now"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите предложение о прошлом"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="29dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

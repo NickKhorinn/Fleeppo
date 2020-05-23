@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hlvl3"
+    android:background="#95EC0707">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What can travel around the world while staying in a corner?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/bhlvl3ex"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="stamp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button82"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="bird"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button83"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="plane"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button84"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#A8EC0707"
+        android:text="sun"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

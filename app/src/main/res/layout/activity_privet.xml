@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privet"
+    android:background="#9C27B0">
+
+    <Button
+        android:id="@+id/bstart2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="158dp"
+        android:layout_height="80dp"
+
+        android:background="#841D9A"
+        android:onClick="onClick"
+        android:text="Поехали"
+        android:textColor="#D3FFFCFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="568dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="280dp"
+        android:layout_height="399dp"
+        android:text="Аня, девочка из России, приехала в Британию посмотреть разные достопримечательности. В Лондоне она встретила мальчика по имени Марк, но они не могут понять друг-друга, потому что Аня плохо знает английский язык. Помоги марку обучить Аню английскикому языку и показать ей Британию."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

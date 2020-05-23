@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl23"
+    android:background="#6FDC8E06">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Какой непрвильный галгол написан с ошибкой"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="fell"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/bmlvl2ex"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="hiden"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="knew"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="bought"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

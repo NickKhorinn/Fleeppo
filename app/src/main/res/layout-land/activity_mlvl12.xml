@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl12"
+    android:background="#6FDC8E06">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Когда ты приехала в Британию?"'
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вставьте слово, подхоядщее по смыслу"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...  did you come to Britain ?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="who"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="117dp"/>
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="what"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/bmlvl13"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="When"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="137dp"
+        android:layout_height="67dp"
+        android:background="#BCDC8E06"
+        android:text="Where"
+        tools:layout_editor_absoluteX="446dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+</>

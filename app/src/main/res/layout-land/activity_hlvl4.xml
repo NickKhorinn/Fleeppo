@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hlvl4"
+    android:background="#95EC0707">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите правильно сотавленное предложение"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button98"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="there are a little Virtual History games avaible in  the shop"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button97"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="there are much Virtual History games avaible in  the shop"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button99"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="there are most of Virtual History games avaible in  the shop"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/bhlvl42"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#A8EC0707"
+        android:text="there are a few Virtual History games avaible in  the shop"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

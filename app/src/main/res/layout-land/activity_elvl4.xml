@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elvl4"
+    android:background="#5149EA37">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите правильно сотавленное предложение"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Марку одиннадцать лет"'
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:text="Mark is twelve yars old"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="117dp"
+        android:background="#CC49EA37" />
+
+    <Button
+        android:id="@+id/belvl42"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:text="Mark eleven years old"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="194dp"
+        android:background="#CC49EA37" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:text="Mark eleventh years"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="271dp"
+        android:background="#CC49EA37" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:text="Mark is eleven years old"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="348dp"
+        android:background="#CC49EA37" />
+</androidx.constraintlayout.widget.ConstraintLayout>

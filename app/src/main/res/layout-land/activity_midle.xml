@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Midle"
+    android:background="#D3F17805">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="СРЕДНИЙ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбор задания"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/bmlvl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 1"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:background="#F17805"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bmlvl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 2"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:background="#F17805"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bmlvl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 3"
+        tools:layout_editor_absoluteX="400dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:background="#F17805"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bmlvl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 4"
+        tools:layout_editor_absoluteX="553dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:background="#F17805"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bmex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Главное меню"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

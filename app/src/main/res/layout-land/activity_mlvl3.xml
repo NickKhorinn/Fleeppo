@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mlvl3"
+    android:background="#6FDC8E06">
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="Yesterday we were walking in the park"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="We were walking by the sea"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/bmlvl32"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="Tomorrow we will go see the sights"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="438dp"
+        android:layout_height="51dp"
+        android:background="#BCDC8E06"
+        android:text="Today we were going into the wood"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите предложение о будущем"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="38dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
